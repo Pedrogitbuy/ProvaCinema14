@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.menu-icon {
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+#nav-menu {
+  display: none; /* Hidden by default */
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+  z-index: 999;
+}
+
+#nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-menu li {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
